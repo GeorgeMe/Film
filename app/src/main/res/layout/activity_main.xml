@@ -45,6 +45,7 @@
     </FrameLayout>
 
     <fragment
+        android:visibility="gone"
         android:id="@+id/navigation_drawer"
         android:name="com.is.movies.views.fragments.NavigationDrawerFragment"
         android:layout_width="@dimen/navigation_drawer_width"
